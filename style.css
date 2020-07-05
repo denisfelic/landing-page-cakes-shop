@@ -1,0 +1,45 @@
+/* GERAL */
+.fonte-primaria{
+  font-family: 'Pacifico', cursive, sans-serif;
+}
+
+.cor-especial{
+  color: darkred;
+}
+
+.fonte-paragrafo{
+  font-size: 1.4em;
+}
+
+/* Carrossel  */
+.carrossel-imagem{
+  object-fit: cover;
+  object-position: 50% 40%;
+  height: 25vw;
+}
+
+.carrossel-background-opacity{
+  background-color: aqua;
+}
+
+.altura-titulo{
+  height: 35%;
+}
+
+
+/* CARDS */
+.borda-cor-especial{
+  border-color: rgba(139, 0, 0, 0.2);
+}
+
+.btn-card{
+  background-color: darkred;
+  transition: .5s;
+  border: none;
+}
+
+.btn-card:hover{
+  background-color: darkred;
+  opacity: 85%;
+  border: none;
+}
