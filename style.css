@@ -56,3 +56,19 @@ ul {
 .card-largura{
   max-width: 18rem;
 }
+
+
+/* Modal */
+.modal-color{
+background-color: darkred;
+color: rgb(235, 235, 235);
+}
+
+.link-texto-claro{
+text-decoration: underline;
+color: #dddddd;
+}
+
+.link-texto-claro:hover{
+  color: #cecece;
+}

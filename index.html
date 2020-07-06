@@ -17,7 +17,7 @@
 <body>
   <!-- Header  - Nav  -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <a class="navbar-brand fonte-primaria" href="#">Doces & Bolos</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,15 +35,17 @@
             <a class="nav-link" href="#">quem somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">contato</a>
+            <a class="nav-link btn btn-card text-light" data-toggle="modal" data-target="#modal-contato">contato</a>
           </li>
         </ul>
       </nav>
     </nav>
   </header>
 
-  <!-- Carrossel  -->
+
   <main>
+
+    <!-- Carrossel  -->
     <section class="carrossel">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="6000">
         <ol class="carousel-indicators">
@@ -53,14 +55,14 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2F1542062283%2Fchocolate-and-cream-layer-cake-1812-cover.jpg%3Fitok%3DR_xDiShk"
+              src= "src/bolo-carrossel (1).jpg"
               class="d-block w-100 carrossel-imagem" alt="...">
             <div class="carousel-caption d-none d-md-block altura-titulo">
               <h1 class="fonte-primaria display-4">Cake Chocolate Premium</h1>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="https://img.taste.com.au/DqTMY6Cz/taste/2018/08/smarties-chocolate-cake-139872-2.jpg"
+            <img src="src/bolo-carrossel (2).jpg"
               class="d-block w-100 carrossel-imagem" alt="...">
             <div class="carousel-caption d-none d-md-block altura-titulo">
               <h1 class="fonte-primaria display-4">Cake confeitado</h1>
@@ -100,9 +102,7 @@
       <div class="row justify-content-center">
         <article class="card borda-cor-especial card-largura col-md-4 col-12  m-4 p-0">
           <figure>
-            <img class="card-img-top card-imagem"
-              src="https://pixabay.com/get/54e0d14b4d51ae14f1dc8460da2932771636d8e0565574_640.jpg"
-              alt="Bolo confeitado">
+            <img class="card-img-top card-imagem" src="src/bolo (1).jpg" alt="Bolo confeitado">
           </figure>
           <div class="card-body">
             <h5 class="card-title">Bolo maravilhoso confeitado</h5>
@@ -114,9 +114,7 @@
 
         <article class="card borda-cor-especial card-largura col-md-4 col-12  m-4 p-0">
           <figure>
-            <img class="card-img-top card-imagem"
-              src="https://pixabay.com/get/57e2d7444256ae14f1dc8460da2932771636d9e7505177_640.jpg"
-              alt="Bolo confeitado">
+            <img class="card-img-top card-imagem" src="src/bolo (2).jpg" alt="Bolo confeitado">
           </figure>
           <div class="card-body">
             <h5 class="card-title">Bolo maravilhoso confeitado</h5>
@@ -129,9 +127,7 @@
 
         <article class="card borda-cor-especial card-largura col-md-4 col-12  m-4 p-0">
           <figure>
-            <img class="card-img-top card-imagem"
-              src="https://pixabay.com/get/57e9d2424f57ae14f1dc8460da2932771636d9e7505072_640.jpg"
-              alt="Bolo confeitado">
+            <img class="card-img-top card-imagem" src="src/bolo (3).jpg" alt="Bolo confeitado">
           </figure>
           <div class="card-body">
             <h5 class="card-title">Bolo maravilhoso confeitado</h5>
@@ -146,9 +142,7 @@
       <div class="row justify-content-center">
         <article class="card borda-cor-especial card-largura col-md-4 col-12  m-4 p-0">
           <figure>
-            <img class="card-img-top card-imagem"
-              src="https://pixabay.com/get/55e3d3454e51ac14f1dc8460da2932771636d9e7505370_640.jpg"
-              alt="Bolo confeitado">
+            <img class="card-img-top card-imagem" src="src/bolo (4).jpg" alt="Bolo confeitado">
           </figure>
           <div class="card-body">
             <h5 class="card-title">Bolo maravilhoso confeitado</h5>
@@ -160,9 +154,7 @@
 
         <article class="card borda-cor-especial card-largura col-md-4 col-12  m-4 p-0">
           <figure>
-            <img class="card-img-top card-imagem"
-              src="https://pixabay.com/get/57e8d0434a53ad14f1dc8460da2932771636d9e7505379_640.jpg"
-              alt="Bolo confeitado">
+            <img class="card-img-top card-imagem" src="src/bolo (5).jpg" alt="Bolo confeitado">
           </figure>
           <div class="card-body">
             <h5 class="card-title">Bolo maravilhoso confeitado</h5>
@@ -174,8 +166,7 @@
 
         <article class="card borda-cor-especial card-largura col-md-4 col-12  m-4 p-0">
           <figure>
-            <img class="card-img-top card-imagem"
-              src="https://pixabay.com/get/5ee3d644494faa0df7c5997cc2213477123ddde150_640.jpg" alt="Bolo confeitado">
+            <img class="card-img-top card-imagem" src="src/bolo (6).jpg">
           </figure>
           <div class="card-body">
             <h5 class="card-title">Bolo maravilhoso confeitado</h5>
@@ -184,69 +175,65 @@
             <a href="#" class="btn btn-primary btn-card">Veja a receita</a>
           </div>
         </article>
-
+      </div>
     </section>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <dialog class="modal-content p-0">
+        <header class="modal-header  modal-color">
+          <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="text-light">&times;</span>
+          </button>
+        </header>
+        <main class="modal-body">
+          <form>
+            <section class="form-group">
+              <label for="exampleFormControlInput1">Nome completo</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ex: Jose Carlos"
+                required>
+            </section>
+
+            <section class="form-group">
+              <label for="exampleFormControlInput1">Endereço de e-mail</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
+                required>
+            </section>
+
+            <section class="form-group">
+              <label for="exampleFormControlTextarea1">Deixe seu comentário</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="..." rows="3"
+                required></textarea>
+            </section>
+          </main>
+        <footer class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="submit" class="btn  btn-card text-light">Enviar</button>
+        </footer>
+        </form>
+      </dialog>
     </div>
+  </div>
 
+<footer class="bg-secondary p-3 mt-5">
+  <p class="text-light m-0">Entre em contato pro e-mail<br> <a class="link-texto-claro" href="mailto:decesebolos@contato.com.br">decesebolos@contato.com.br</a></p>
+  <p class="text-light text-center m-0">desenvolvido com <span class="cor-especial">&hearts;</span> por <a class="link-texto-claro" href="#">DenisFS</a></p>
+</footer>
 
-
-
-
-
-
-
-    <!-- 
-    <img src="src/blur-1869227_1920.jpg" alt="imagem de bolo">
-    Image by <a
-      href="https://pixabay.com/users/Pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1869227">Pexels</a>
-    from <a
-      href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1869227">Pixabay</a>
-  </main> -->
-
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-    <h1>Hello world bootstrap 4.5</h1>
-
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"></script>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
