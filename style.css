@@ -1,4 +1,8 @@
 /* GERAL */
+ul {
+  list-style-type: none;
+}
+
 .fonte-primaria{
   font-family: 'Pacifico', cursive, sans-serif;
 }
@@ -42,4 +46,13 @@
   background-color: darkred;
   opacity: 85%;
   border: none;
+}
+
+.card-imagem{
+  object-fit: cover;
+  height: 200px;
+}
+
+.card-largura{
+  max-width: 18rem;
 }
